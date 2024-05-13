@@ -5,8 +5,8 @@ using namespace std;
 class mahasiswa
 {
 public:
-	static int nim;
-	int id;
+	static long long int nim;
+	long long int id;
 	string name;
 
 	void setID();
@@ -18,7 +18,7 @@ public:
 	}
 };
 
-int mahasiswa::nim = 10;
+long long int mahasiswa::nim = 20230140141;
 
 void mahasiswa::setID()
 {
