@@ -13,7 +13,7 @@ public:
 	void printAll();
 	mahasiswa(string pnama)
 	{
-		nama = pnama;
+		name = pnama;
 		setID();
 	}
 };
@@ -23,4 +23,11 @@ int mahasiswa::nim = 10;
 void mahasiswa::setID()
 {
 	id = ++nim;
+}
+
+void mahasiswa::printAll()
+{
+	cout << "ID = " << id << endl;
+	cout << "Nama = " << name << endl;
+	cout << endl;
 }
