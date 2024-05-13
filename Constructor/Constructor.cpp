@@ -20,6 +20,7 @@ public:
 	}
 	Mahasiswa(string iNama)
 	{
+		nim = 0;
 		nama = iNama;
 	}
 	Mahasiswa(int iNim, string iNama)
@@ -33,6 +34,20 @@ public:
 		cout << "Nama = " << nama << endl;
 	}
 };
+
+int main()
+{
+	Mahasiswa mhs1;
+	Mahasiswa mhs2(20);
+	Mahasiswa mhs3("Ikan Rebus");
+	Mahasiswa mhs4(30, "Nasi Rebus");
+
+	mhs1.cetak();
+	mhs2.cetak();
+	mhs3.cetak();
+	mhs4.cetak();
+	return 0;
+}
 
 
 
