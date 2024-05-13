@@ -10,4 +10,10 @@ public:
 	string name;
 
 	void setID();
+	void printAll();
+	mahasiswa(string pnama)
+	{
+		nama = pnama;
+		setID();
+	}
 };
